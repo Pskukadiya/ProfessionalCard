@@ -1,0 +1,19 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Purvang Kukadiya" description="With over five years of experience in .NET Core, .NET MVC, .NET Framework, and SQL, I deliver high-quality, scalable software solutions that drive business success. My expertise spans from back-end to front-end development, ensuring robust applications tailored to modern requirements.">
+	<Card
+	  name="Purvang Kukadiya"
+	  position="Senior Software Developer"
+	  aboutMe={`Hi there! I'm Purvang, a seasoned web developer passionate about crafting clean and dynamic websites. With 5 years of experience, I specialize in front-end and back-end development using HTML, CSS, JavaScript, .NET Core, .NET MVC, C#, Java.\n\nI thrive on creating user-centric designs and optimizing performance for seamless browsing experiences.\n\nLet's collaborate TOGHETER!`}
+	  linkedin="https://www.linkedin.com/in/purvangkukadiya/"
+	  github="https://github.com/Pskukadiya"
+	  cvLink="/files/resume-cv.pdf"
+	  profileImage="/images/ProfilePicFin.webp"
+	/>
+</BaseLayout>
